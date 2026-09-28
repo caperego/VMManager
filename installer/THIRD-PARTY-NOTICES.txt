@@ -1,0 +1,32 @@
+Componentes de terceiros incluídos no instalador do VM Manager
+=============================================================
+
+virt-viewer 11.0 para Windows x64
+---------------------------------
+Distribuição: MSI oficial do projeto virt-manager/virt-viewer, mantido no GitLab.
+Licença: GNU General Public License, versão 2 ou posterior (GPL-2.0-or-later).
+O texto da licença acompanha este instalador em licenses/virt-viewer-COPYING.txt.
+O código-fonte correspondente à versão 11.0 acompanha o aplicativo em
+licenses/virt-viewer-11.0.tar.xz.
+
+Downloads oficiais e assinaturas GPG:
+https://virt-manager.org/download
+https://gitlab.com/virt-viewer/virt-viewer/-/releases/v11.0
+Impressão digital da chave de lançamento publicada pelo projeto:
+DAF3 A6FD B26B 6291 2D0E 8E3F BE86 EBB4 1510 4FDF
+
+O MSI oficial instala remote-viewer, virt-viewer e as bibliotecas de execução
+fornecidas pelo projeto. A desinstalação do VM Manager deixa o virt-viewer
+instalado, pois ele pode ser usado por outros programas. Remova-o separadamente
+em Aplicativos instalados do Windows, se desejar.
+
+OpenSSH Client
+--------------
+O instalador usa o Cliente OpenSSH que faz parte dos recursos opcionais do
+Windows. Se necessário, pede autorização para o DISM habilitá-lo usando os
+componentes oficiais do Windows Update. O OpenSSH não é redistribuído aqui.
+
+VM Manager
+----------
+O código-fonte Pascal do VM Manager e as instruções para compilá-lo acompanham
+o projeto-fonte distribuído separadamente.
